@@ -10,13 +10,13 @@
   - Utilize `cd Bot-Slash-v14` para entrar na pasta caso tenha dado clone
   - Baixe as dependências com `npm install`
   - Configure os campos do `.env`
-  - Único campo que pode ficar vázio no `.env` é o GUILD_ID, os demais deverão ser preenchidos!
+  - Único campo que pode ficar vazio no `.env` é o GUILD_ID, os demais deverão ser preenchidos!
 ```sh
 [.env]
 ```
   - TOKEN=token do bot.
   - CLIENT_ID=id do bot.
-  - GUILD_ID=id do servidor ou deixe vázio.
+  - GUILD_ID=id do servidor ou deixe vazio.
   - OWNER=id do dono.
 ```sh
 [Ligando]
