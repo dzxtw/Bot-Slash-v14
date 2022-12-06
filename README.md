@@ -26,5 +26,5 @@
 
 ## 📬 Contato
  - Em caso de erros relacionado ao `BOT` me mencione ou adicione no discord
-### dzxtw#2666
+### dzxtw#0001
  - Observação: provavelmente não aceitarei o pedido de amizade, então me mencione e vá direto ao ponto!
