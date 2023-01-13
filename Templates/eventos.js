@@ -1,4 +1,13 @@
+/**
+ * @module
+ * @param {Client} client - Instância do cliente do Discord.js
+ */
 const client = require('..');
 
-client.on("", async () => {
+/**
+ * Evento disparado quando ____________.
+ * @event
+ */
+client.on('', async () => {
+    // Código a ser executado quando o evento é disparado.
 });
