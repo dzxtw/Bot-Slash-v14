@@ -1,4 +1,4 @@
 const client = require('..');
 
-client.on("", async () => {
+client.on('', async () => {
 });
