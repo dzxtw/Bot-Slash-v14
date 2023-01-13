@@ -1,15 +1,28 @@
 const fs = require('fs');
 const chalk = require('chalk');
-
 const { PermissionsBitField } = require('discord.js');
 const { Routes } = require('discord-api-types/v10');
 const { REST } = require('@discordjs/rest');
 
+/**
+ * Variável que armazena o token da aplicação.
+ * @const {string}
+ */
 const TOKEN = process.env.TOKEN;
+
+/**
+ * Variável que armazena o ID da aplicação.
+ * @const {string}
+ */
 const CLIENT_ID = process.env.CLIENT_ID;
 
 const rest = new REST({ version: '10' }).setToken(TOKEN);
 
+/**
+ * Função que carrega e registra os comandos da aplicação.
+ * @function
+ * @param {Client} client - Instância do cliente do Discord.js
+ */
 module.exports = client => {
     const slashCommands = [];
 
