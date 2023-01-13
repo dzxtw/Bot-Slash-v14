@@ -2,6 +2,10 @@ require('dotenv').config();
 const fs = require('fs');
 const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 
+/**
+ * @type {Client}
+ * @property {Collection} slashCommands - Coleção de comandos personalizados.
+ */
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -18,6 +22,10 @@ client.slashCommands = new Collection();
 
 module.exports = client;
 
+/**
+ * @function
+ * @param {string} handler - Nome do arquivo da pasta Handlers.
+ */
 fs.readdirSync('./Handlers').forEach(handler => {
     require(`./Handlers/${handler}`)(client);
 });
